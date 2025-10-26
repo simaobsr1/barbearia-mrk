@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+h2, h4 {
+    color: #e03c31; /* vermelho logo */
+}
+
+.card {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.form-control, .form-select {
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #e03c31;
+    box-shadow: 0 0 0 0.2rem rgba(224, 60, 49, 0.25);
+}
+
+.btn-danger {
+    background-color: #e03c31;
+    border-color: #e03c31;
+}
+
+.btn-danger:hover {
+    background-color: #c42c22;
+    border-color: #b22a1e;
+}
+
+.btn-outline-light:hover {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.alert-success {
+    background-color: #198754;
+    color: #fff;
+}
+
+.alert-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.table-dark td, .table-dark th {
+    color: #fff;
+}
+
+.list-group-item {
+    background-color: #f8f9fa;
+    color: #000;
+}
